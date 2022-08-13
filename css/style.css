@@ -815,6 +815,10 @@ div.detail-box .cliente_comentario {
   text-shadow: none;
 }
 
+.menu {
+  color: black;
+}
+
 /* footer section*/
 .footer_section {
   background-color: #002c3e;
