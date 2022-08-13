@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Montserrat', sans-serif;
   color: #0c0c0c;
@@ -37,6 +38,10 @@ body {
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
+}
+
+h1 span {
+  color: #f7444e;
 }
 
 .heading_container {
@@ -275,8 +280,10 @@ a:focus {
     font-size: 4.5rem;
     font-weight: bold;
     margin-bottom: 15px;
-    color: #002c3e;
+    color: white;
     line-height: 70px;
+    background-color: #0000005e;
+    padding: 10px;
 }
 
 .slider_section .detail-box h1 span {
@@ -284,6 +291,7 @@ a:focus {
 }
 
 .slider_section .detail-box p {
+    color: white;
     font-size: 16px;
     margin-top: 20px;
     margin-bottom: 1.5rem;
@@ -335,6 +343,10 @@ a:focus {
   width: 20px;
   height: 20px;
   background-color: #f7444e;
+}
+
+.carousel-item {
+  text-shadow: 1px 3px 2px black;
 }
 
 .slider_bg_box {
