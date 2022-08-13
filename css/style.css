@@ -157,6 +157,10 @@ a:focus {
   margin-left: auto;
 }
 
+.navbar-nav .dropdown-menu {
+  position: absolute;
+}
+
 .custom_nav-container .navbar-nav .nav-item .nav-link {
     padding: 5px 20px;
     color: #131313;
