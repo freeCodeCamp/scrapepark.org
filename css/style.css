@@ -44,6 +44,10 @@ h1 span {
   color: #f7444e;
 }
 
+h3 {
+  color: white;
+}
+
 .heading_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -271,6 +275,10 @@ a:focus {
           align-items: center;
 }
 
+div.box div.row {
+  color: white;
+}
+
 .slider_section #customCarousel1 {
   width: 100%;
   position: unset;
@@ -435,9 +443,11 @@ a:focus {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
+
 .arrival_section {
-    background-color: #d4ced0;
+    background-color:#19292c;
 }
+
 .product_section .option_container {
   position: absolute;
   top: 0;
@@ -536,7 +546,7 @@ a:focus {
 }
 
 .arrival_section .heading_container {
-  color: #002c3e;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 
@@ -612,7 +622,7 @@ a:focus {
 }
 
 .subscribe_section .box {
-  background-color: #d4ced0;
+  background-color: #002c3e;
   padding: 75px 45px;
 }
 
@@ -798,6 +808,11 @@ a:focus {
 
 .client_section .carousel-control-next {
   right: 25%;
+}
+
+div.detail-box .cliente_nombre,
+div.detail-box .cliente_comentario {
+  text-shadow: none;
 }
 
 /* footer section*/
