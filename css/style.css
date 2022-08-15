@@ -1155,6 +1155,13 @@ form input[type="submit"]:focus {
     font-weight: 400;
 }
 
+/* Footer */
+
+.freecodecamp-logo {
+  height: 30px;
+  margin: 15px;
+}
+
 /* http://kute-themes.com/html/boutique/html/index.html
 https://template.hasthemes.com/noraure/noraure/index.html
 https://preview.hasthemes.com/xoss-preview/xoss/index.html */
