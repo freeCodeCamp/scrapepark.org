@@ -39,7 +39,11 @@
     object-position: top center;
   }
 
-  .arrival_section .arrival_bg_box img {
+  .arrival-section-top .arrival_bg_box img {
+    display: none;
+  }
+
+  .arrival-section-top .arrival_bg_box img {
     -o-object-position: top right;
     object-position: top right;
   }

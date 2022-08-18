@@ -598,12 +598,16 @@ div.box div.row {
   font-weight: bold;
 }
 
-.arrival_section .box {
+.arrival-section-top {
+  background-color: #002c3e;
+}
+
+.arrival-section-top .box {
   padding: 120px 45px;
   position: relative;
 }
 
-.arrival_section .arrival_bg_box {
+.arrival-section-top .arrival_bg_box {
     position: absolute;
     top: 0;
     left: 0;
@@ -612,7 +616,7 @@ div.box div.row {
     z-index: 3;
 }
 
-.arrival_section .arrival_bg_box img {
+.arrival-section-top .arrival_bg_box img {
     width: 50%;
     height: 100%;
     -o-object-fit: cover;
@@ -621,7 +625,7 @@ div.box div.row {
     object-position: top left;
 }
 
-.arrival_section a {
+.arrival-section-top a {
   display: inline-block;
   padding: 10px 45px;
   background-color: #f7444e;
@@ -632,7 +636,7 @@ div.box div.row {
   transition: all 0.3s;
 }
 
-.arrival_section a:hover {
+.arrival-section-top a:hover {
   background-color: transparent;
   color: #f7444e;
 }
