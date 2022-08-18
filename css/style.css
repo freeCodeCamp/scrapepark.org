@@ -288,6 +288,11 @@ div.box div.row {
   position: unset;
 }
 
+.detail-box {
+  display: flex;
+  flex-direction: column;
+}
+
 .slider_section .detail-box h1 {
     font-size: 4.5rem;
     font-weight: bold;
