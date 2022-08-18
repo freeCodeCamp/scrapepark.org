@@ -48,6 +48,17 @@ h3 {
   color: white;
 }
 
+iframe {
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: scroll;
+  overflow-x: scroll;
+}
+
+table {
+  background-color: white;
+}
+
 .heading_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -453,8 +464,28 @@ div.box div.row {
           transform: translateY(0);
 }
 
-.arrival_section {
-    background-color:#19292c;
+.arrival-section-bottom {
+  background-image: url(../images/arrival-bg-table.png);
+  background-size: cover;
+  padding: 20px;
+}
+
+.arrival-section-bottom .container {
+  background-color: #002c3e;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.arrival-section-bottom .container a {
+  color: white;
+  font-weight: bold;
+  padding: 5px 15px;
+  background-color: #f7444e;
+  margin: 20px;
 }
 
 .product_section .option_container {
@@ -535,7 +566,6 @@ div.box div.row {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 45px;
 }
 
 .product_section .btn-box a {
@@ -554,9 +584,18 @@ div.box div.row {
   color: #f7444e;
 }
 
-.arrival_section .heading_container {
+#missing-models-box {
+  margin: 10px;
+  text-align: center;
+}
+
+.heading-container {
   color: #ffffff;
   margin-bottom: 10px;
+  position: relative;
+  margin-bottom: 0;
+  font-size: 3.5rem;
+  font-weight: bold;
 }
 
 .arrival_section .box {
@@ -1136,6 +1175,16 @@ form input[type="submit"]:hover,
 form input[type="submit"]:focus {
     background: #f7444e;
     color: #fff;
+}
+
+/* Table */
+
+.table th,
+.table td {
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  min-width: 115px;
 }
 
 /** cpy **/
