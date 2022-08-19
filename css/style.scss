@@ -16,7 +16,7 @@ $textCol: #1f1f1f;
   font-family: 'Playfair Display', serif;
 }
 
-@mixin hero_btn($col1, $col2, $pad1, $pad2, $bRadius) {
+@mixin hero-btn($col1, $col2, $pad1, $pad2, $bRadius) {
   display: inline-block;
   padding: $pad1 $pad2;
   background-color: $col1;
@@ -43,27 +43,27 @@ body {
   overflow-x: hidden;
 }
 
-.layout_padding {
+.layout-padding {
   padding: 90px 0;
 }
 
-.layout_padding2 {
+.layout-padding2 {
   padding: 75px 0;
 }
 
-.layout_padding2-top {
+.layout-padding2-top {
   padding-top: 75px;
 }
 
-.layout_padding2-bottom {
+.layout-padding2-bottom {
   padding-bottom: 75px;
 }
 
-.layout_padding-top {
+.layout-padding-top {
   padding-top: 90px;
 }
 
-.layout_padding-bottom {
+.layout-padding-bottom {
   padding-bottom: 90px;
 }
 
@@ -72,7 +72,7 @@ h2 {
   @include second-font();
 }
 
-.heading_container {
+.heading-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -93,7 +93,7 @@ h2 {
     margin-bottom: 0;
   }
 
-  &.heading_center {
+  &.heading-center {
     align-items: center;
     text-align: center;
   }
@@ -117,22 +117,22 @@ a:focus {
 }
 
 /*header section*/
-.hero_area {
+.hero-area {
   position: relative;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-.sub_page {
-  .hero_area {
+.sub-page {
+  .hero-area {
     min-height: auto;
     box-shadow: 0 0 5px 0 rgba($color: #000000, $alpha: .25);
   }
 
 }
 
-.header_section {
+.header-section {
   padding: 10px 0;
 
   .container-fluid {
@@ -151,7 +151,7 @@ a:focus {
   }
 }
 
-.custom_nav-container {
+.custom-nav-container {
   padding: 0;
 
   .navbar-nav {
@@ -188,7 +188,7 @@ a:focus {
   }
 }
 
-.custom_nav-container .nav_search-btn {
+.custom-nav-container .nav-search-btn {
   width: 35px;
   height: 35px;
   padding: 0;
@@ -200,11 +200,11 @@ a:focus {
   }
 }
 
-.custom_nav-container .navbar-toggler {
+.custom-nav-container .navbar-toggler {
   outline: none;
 }
 
-.custom_nav-container .navbar-toggler {
+.custom-nav-container .navbar-toggler {
   padding: 0;
   width: 37px;
   height: 42px;
@@ -261,7 +261,7 @@ a:focus {
 /*end header section*/
 
 /* slider section */
-.slider_section {
+.slider-section {
   flex: 1;
   display: flex;
   align-items: center;
@@ -295,7 +295,7 @@ a:focus {
     }
 
     a {
-      @include hero_btn($primary1, $white, 10px, 45px, 0);
+      @include hero-btn($primary1, $white, 10px, 45px, 0);
       margin-top: 10px;
     }
 
@@ -332,7 +332,7 @@ a:focus {
   }
 }
 
-.slider_bg_box {
+.slider-bg-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -351,9 +351,9 @@ a:focus {
 // end slider section
 
 // product section
-.product_section {
+.product-section {
 
-  .heading_container {
+  .heading-container {
     margin-bottom: 20px;
   }
 
@@ -402,7 +402,7 @@ a:focus {
     }
 
     &:hover {
-      .option_container {
+      .option-container {
         opacity: 1;
         visibility: visible;
         transform: translateY(0);
@@ -410,7 +410,7 @@ a:focus {
     }
   }
 
-  .option_container {
+  .option-container {
     position: absolute;
     top: 0;
     left: 0;
@@ -473,7 +473,7 @@ a:focus {
     margin-top: 45px;
 
     a {
-      @include hero_btn($primary1, $white, 10px, 40px, 0);
+      @include hero-btn($primary1, $white, 10px, 40px, 0);
     }
   }
 }
@@ -482,8 +482,8 @@ a:focus {
 
 // arrival section
 
-.arrival_section {
-  .heading_container {
+.arrival-section {
+  .heading-container {
     color: $primary2;
     margin-bottom: 10px;
   }
@@ -493,7 +493,7 @@ a:focus {
     position: relative;
   }
 
-  .arrival_bg_box {
+  .arrival-bg-box {
     position: absolute;
     top: 0;
     left: 0;
@@ -510,7 +510,7 @@ a:focus {
   }
 
   a {
-    @include hero_btn($primary1, $white, 10px, 45px, 0);
+    @include hero-btn($primary1, $white, 10px, 45px, 0);
   }
 }
 
@@ -518,7 +518,7 @@ a:focus {
 
 // why section
 
-.why_section {
+.why-section {
 
 
   .box {
@@ -545,7 +545,7 @@ a:focus {
 
 // subscribe section
 
-.subscribe_section {
+.subscribe-section {
   text-align: center;
 
   .box {
@@ -553,8 +553,8 @@ a:focus {
     padding: 75px 45px;
   }
 
-  .subscribe_form {
-    .heading_container {
+  .subscribe-form {
+    .heading-container {
       justify-content: center;
       color: $primary2;
 
@@ -585,7 +585,7 @@ a:focus {
       }
 
       button {
-        @include hero_btn($primary1, $white, 10px, 45px, 35px);
+        @include hero-btn($primary1, $white, 10px, 45px, 35px);
         text-transform: uppercase;
         margin-top: 35px;
         font-weight: 600;
@@ -600,7 +600,7 @@ a:focus {
 
 // client section
 
-.client_section {
+.client-section {
 
 
   .box {
@@ -610,7 +610,7 @@ a:focus {
     text-align: center;
     margin-top: 55px;
 
-    .img_container {
+    .img-container {
       width: 275px;
       height: 275px;
       border-radius: 100%;
@@ -629,7 +629,7 @@ a:focus {
         background-color: $white;
         margin-right: -1px;
 
-        .img_box-inner {
+        .img-box-inner {
           width: 150px;
           height: 150px;
           border-radius: 100%;
@@ -694,7 +694,7 @@ a:focus {
 
 /* footer section*/
 
-.footer_section {
+.footer-section {
   background-color: $primary2;
   color: $white;
   padding-top: 70px;
@@ -715,9 +715,9 @@ a:focus {
     margin-bottom: 30px;
   }
 
-  .footer_contact {
+  .footer-contact {
 
-    .contact_link_box {
+    .contact-link-box {
       display: flex;
       flex-direction: column;
 
@@ -743,7 +743,7 @@ a:focus {
     color: $white;
   }
 
-  .footer_social {
+  .footer-social {
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -771,7 +771,7 @@ a:focus {
 
 
 
-  .map_container {
+  .map-container {
     width: 100%;
     height: 175px;
     overflow: hidden;

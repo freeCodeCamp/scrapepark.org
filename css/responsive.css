@@ -3,30 +3,30 @@
 @media (max-width: 1120px) {}
 
 @media (max-width: 992px) {
-  .hero_area {
+  .hero-area {
     min-height: auto;
   }
 
-  .custom_nav-container .navbar-nav {
+  .custom-nav-container .navbar-nav {
     padding-top: 15px;
     align-items: center;
   }
 
 
-  .custom_nav-container .navbar-nav .nav-item .nav-link {
+  .custom-nav-container .navbar-nav .nav-item .nav-link {
     padding: 5px 25px;
     margin: 5px 0;
   }
 
-  .slider_section .carousel-indicators {
+  .slider-section .carousel-indicators {
     margin-top: 45px;
   }
 
-  .client_section .carousel-control-prev {
+  .client-section .carousel-control-prev {
     left: 15%;
   }
 
-  .client_section .carousel-control-next {
+  .client-section .carousel-control-next {
     right: 15%;
   }
 
@@ -34,66 +34,66 @@
 
 @media (max-width: 767px) {
 
-  .slider_bg_box img {
+  .slider-bg-box img {
     -o-object-position: top center;
     object-position: top center;
   }
 
-  .arrival-section-top .arrival_bg_box img {
+  .arrival-section-top .arrival-bg-box img {
     display: none;
   }
 
-  .arrival-section-top .arrival_bg_box img {
+  .arrival-section-top .arrival-bg-box img {
     -o-object-position: top right;
     object-position: top right;
   }
 
-  .client_section .carousel-control-prev {
+  .client-section .carousel-control-prev {
     left: 5%;
   }
 
-  .client_section .carousel-control-next {
+  .client-section .carousel-control-next {
     right: 5%;
   }
 
-  .slider_section .detail-box,
-  .about_section .detail-box {
+  .slider-section .detail-box,
+  .about-section .detail-box {
     margin-bottom: 45px;
   }
 
-  .about_section .row {
+  .about-section .row {
     flex-direction: column-reverse;
   }
 
-  .subscribe_section .box,
-  .arrival_section .box {
+  .subscribe-section .box,
+  .arrival-section .box {
     padding: 75px 25px;
   }
 
-  .subscribe_section .subscribe_form form button {
+  .subscribe-section .subscribe-form form button {
     margin-top: 15px;
   }
 }
 
 @media (max-width: 576px) {
-  .heading_container h2 {
+  .heading-container h2 {
     font-size: 2.2rem;
   }
 }
 
 @media (max-width: 480px) {
-  .heading_container h2 {
+  .heading-container h2 {
     font-size: 2rem;
   }
 
-  .carousel_btn_box {
+  .carousel-btn-box {
     display: flex;
     justify-content: center;
     margin-top: 25px;
   }
 
-  .client_section .carousel-control-prev,
-  .client_section .carousel-control-next {
+  .client-section .carousel-control-prev,
+  .client-section .carousel-control-next {
     position: unset;
     transform: none;
   }
@@ -102,7 +102,7 @@
 @media (max-width: 420px) {}
 
 @media (max-width: 376px) {
-  .slider_section .detail-box h1 {
+  .slider-section .detail-box h1 {
     font-size: 3rem;
   }
 }
