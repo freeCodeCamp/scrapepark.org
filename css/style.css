@@ -305,13 +305,23 @@ div.box div.row {
   flex-direction: column;
 }
 
+.slider-section .detail-box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #000000b0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 0px 3px black;
+  max-width: 500px;
+}
+
 .slider-section .detail-box h1 {
   font-size: 4.5rem;
   font-weight: bold;
-  margin-bottom: 15px;
   color: white;
-  line-height: 70px;
-  background-color: #000000bf;
+  line-height: 80px;
   padding: 10px;
 }
 
@@ -320,12 +330,12 @@ div.box div.row {
 }
 
 .slider-section .detail-box p {
+  width: 100%;
   color: white;
+  font-weight: bold;
   font-size: 21px;
   padding: 10px;
-  background-color: #000000bf;
-  margin-top: 20px;
-  margin-bottom: 1.5rem;
+  margin: 10px 0;
 }
 
 .slider-section .detail-box a {
@@ -339,11 +349,14 @@ div.box div.row {
   transition: all 0.3s;
   margin-top: 10px;
   font-weight: 700;
+  text-shadow: none;
 }
 
 .slider-section .detail-box a:hover {
-  background-color: transparent;
-  color: #f7444e;
+  color: #000000;
+  text-shadow: none;
+  border: 1px solid #002ead;
+  background-color: #ffffff;
 }
 
 .slider-section .img-box img {
@@ -374,10 +387,6 @@ div.box div.row {
   width: 20px;
   height: 20px;
   background-color: #f7444e;
-}
-
-.carousel-item {
-  text-shadow: 1px 3px 2px black;
 }
 
 .slider-bg-box {
