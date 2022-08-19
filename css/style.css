@@ -311,7 +311,7 @@ div.box div.row {
   margin-bottom: 15px;
   color: white;
   line-height: 70px;
-  background-color: #0000005e;
+  background-color: #000000bf;
   padding: 10px;
 }
 
@@ -321,7 +321,9 @@ div.box div.row {
 
 .slider-section .detail-box p {
   color: white;
-  font-size: 16px;
+  font-size: 21px;
+  padding: 10px;
+  background-color: #000000bf;
   margin-top: 20px;
   margin-bottom: 1.5rem;
 }
