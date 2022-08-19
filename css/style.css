@@ -650,6 +650,10 @@ div.box div.row {
   color: white;
 }
 
+.sub-page .arrival-section-top {
+  background-color: #333333;
+}
+
 .why-section .box {
     text-align: center;
     margin-top: 45px;
