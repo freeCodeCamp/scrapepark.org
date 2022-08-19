@@ -73,6 +73,20 @@
   .subscribe-section .subscribe-form form button {
     margin-top: 15px;
   }
+
+  footer .col-md-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  footer .col-md-8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 @media (max-width: 576px) {
