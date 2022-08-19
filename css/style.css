@@ -889,6 +889,7 @@ div.box div.row {
 div.detail-box .cliente-nombre,
 div.detail-box .cliente-comentario {
   text-shadow: none;
+  max-width: 450px;
 }
 
 .menu {
