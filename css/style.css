@@ -1204,22 +1204,22 @@ form input[type="submit"]:focus {
   min-width: 115px;
 }
 
-/** cpy **/
+/** Attribution **/
 
-.cpy- {
+.attribution {
   background: #222;
   text-align: center;
   padding: 20px 0;
 }
 
-.cpy- p {
+.attribution p {
   margin: 0;
   color: #fff;
   font-size: 15px;
   font-weight: 400;
 }
 
-.cpy- p a {
+.attribution p a {
   margin: 0;
   color: #f7444e;
   font-size: 15px;
