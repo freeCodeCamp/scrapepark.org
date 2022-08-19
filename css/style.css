@@ -464,6 +464,10 @@ div.box div.row {
           transform: translateY(0);
 }
 
+.product_section .btn-box {
+  margin-top: 30px;
+}
+
 .arrival-section-bottom {
   background-image: url(../images/arrival-bg-table.png);
   background-size: cover;
