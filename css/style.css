@@ -52,7 +52,6 @@ iframe {
   width: 100%;
   height: 100%;
   border: none;
-  margin-bottom: 10px;
   overflow-x: scroll;
 }
 
@@ -1221,6 +1220,7 @@ form input[type="submit"]:focus {
 
 .table-responsive {
   height: 290px;
+  margin-bottom: 10px;
 }
 
 /** Attribution **/
