@@ -886,8 +886,8 @@ div.box div.row {
   right: 25%;
 }
 
-div.detail-box .cliente-nombre,
-div.detail-box .cliente-comentario {
+div.detail-box .customer-name,
+div.detail-box .customer-comment {
   text-shadow: none;
   max-width: 450px;
 }
