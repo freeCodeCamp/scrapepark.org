@@ -1,0 +1,128 @@
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+  .hero-area {
+    min-height: auto;
+  }
+
+  .custom-nav-container .navbar-nav {
+    padding-top: 15px;
+    align-items: center;
+  }
+
+
+  .custom-nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 25px;
+    margin: 5px 0;
+  }
+
+  .slider-section .carousel-indicators {
+    margin-top: 45px;
+  }
+
+  .client-section .carousel-control-prev {
+    left: 15%;
+  }
+
+  .client-section .carousel-control-next {
+    right: 15%;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .slider-bg-box img {
+    -o-object-position: top center;
+    object-position: top center;
+  }
+
+  .arrival-section-top .arrival-bg-box img {
+    display: none;
+  }
+
+  .arrival-section-top .arrival-bg-box img {
+    -o-object-position: top right;
+    object-position: top right;
+  }
+
+  .client-section .carousel-control-prev {
+    left: 5%;
+  }
+
+  .client-section .carousel-control-next {
+    right: 5%;
+  }
+
+  .slider-section .detail-box,
+  .about-section .detail-box {
+    margin-bottom: 45px;
+  }
+
+  .about-section .row {
+    flex-direction: column-reverse;
+  }
+
+  .subscribe-section .box,
+  .arrival-section .box {
+    padding: 75px 25px;
+  }
+
+  .subscribe-section .subscribe-form form button {
+    margin-top: 15px;
+  }
+
+  footer .col-md-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  footer .col-md-8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading-container h2 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading-container h2 {
+    font-size: 2rem;
+  }
+
+  .carousel-btn-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .client-section .carousel-control-prev,
+  .client-section .carousel-control-next {
+    position: unset;
+    transform: none;
+  }
+}
+
+@media (max-width: 420px) {}
+
+@media (max-width: 376px) {
+  .slider-section .detail-box h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
