@@ -1,8 +1,25 @@
 {
   "navbar": {
     "home": "Inicio",
+    "about": "Acerca",
+    "testimonials": "Testimonios",
     "products": "Productos",
-    "contact": "Contacto"
+    "prices": "Precios",
+    "contact": "Contacto",
+    "contact1": "Contacto 1",
+    "contact2": "Contacto 2"
+  },
+  "sliderSection": {
+    "discounts": "Descuentos",
+    "onAllProducts": "¡En todos los productos!",
+    "findOurSales": "Aprovechá nuestras ofertas.",
+    "shopNow": "Comprar ahora"
+  },
+  "whySection": {
+    "whyChooseOurSkateboards": "¿Por qué comprar con nosotros?",
+    "fastDelivery": "Entrega rápida",
+    "freeShipping": "Envío gratuito",
+    "topQuality": "La mejor calidad"
   },
   "form": {
     "yourFullName": "Tu nombre completo",
@@ -13,9 +30,47 @@
   },
   "arrivalSection": {
     "news": "Novedades",
+    "dontMissLatestProducts": "¡No te pierdas nuestros últimos productos!",
     "shopNow": "Comprar ahora"
   },
+  "productsSection": {
+    "ourProducts": "Nuestros productos",
+    "addToCart": "Agregar al carrito",
+    "buyNow": "Comprar ahora",
+    "seeAllProducts": "Ver todos los productos",
+    "newSkateboard": "Patineta nueva",
+    "usedSkateboard": "Patineta usada"
+  },
+  "subscribeSection": {
+    "subscribeMessage": "Suscríbete para obtener descuentos y ofertas",
+    "enterEmail": "Dejanos tu email",
+    "subscribe": "Suscribirse"
+  },
+  "testimonialsSection": {
+    "testimonials": "Testimonios de clientes",
+    "customer": "Cliente",
+    "customer1Testimonial": "Los productos me encantaron y los precios son muy buenos. Lo recomiendo.",
+    "customer2Testimonial": "¡La calidad y variedad de patinetas es impresionante! Definitivamente volveré a comprar.",
+    "customer3Testimonial": "Estoy muy conforme. Hay muchas patinetas y los diseños son fantásticos."
+  },
+  "table": {
+    "prices": "Precios",
+    "blue": "Azul",
+    "green": "Verde",
+    "black": "Negro",
+    "purple": "Morado",
+    "special": "Especial",
+    "missingModels": "Los modelos faltantes se muestran en color rojo."
+  },
   "contactFooter": {
+    "address": "DIRECCIÓN",
+    "phone": "TELÉFONO",
+    "email": "EMAIL",
+    "menu": "MENÚ",
+    "services": "Servicios",
+    "testimonials": "Testimonios",
+    "addressValue": "Calle falsa 123",
+    "emailValue": "ventas@mail.com",
     "textThatChanges1": "Texto que cambia entre páginas en contacto 1 :)",
     "textThatChanges2": "Texto que cambia entre páginas en contacto 2 :)",
     "allRightsReserved": "Todos los derechos reservados",
