@@ -1,0 +1,26 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "products": "Productos",
+    "contact": "Contacto"
+  },
+  "form": {
+    "yourFullName": "Tu nombre completo",
+    "yourEmail": "Tu dirección de email",
+    "subject": "Asunto",
+    "yourMessage": "Tu mensaje",
+    "send": "Enviar"
+  },
+  "arrivalSection": {
+    "news": "Novedades",
+    "shopNow": "Comprar ahora"
+  },
+  "contactFooter": {
+    "textThatChanges1": "Texto que cambia entre páginas en contacto 1 :)",
+    "textThatChanges2": "Texto que cambia entre páginas en contacto 2 :)",
+    "allRightsReserved": "Todos los derechos reservados",
+    "source": "Creado con Free Html Templates",
+    "adaptedBy": "Adaptado por",
+    "and": "y"
+  }                     
+}

@@ -1,0 +1,26 @@
+{
+  "navbar": {
+    "home": "Home",
+    "products": "Products",
+    "contact": "Contact"
+  }, 
+  "form": {
+    "yourFullName": "Your Full Name",
+    "yourEmail": "Your Email",
+    "subject": "Subject",
+    "yourMessage": "Your Message",
+    "send": "Send"
+  },
+  "arrivalSection": {
+    "news": "News",
+    "shopNow": "Shop Now"
+  },
+  "contactFooter": {
+    "textThatChanges1": "Text that changes between pages in contact 1 :)",
+    "textThatChanges2": "Text that changes between pages in contact 2 :)",
+    "allRightsReserved": "All Rights Reserved",
+    "source": "Created with Free Html Templates",
+    "adaptedBy": "Adapted by",
+    "and": "and"
+  }            
+}
