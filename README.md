@@ -178,7 +178,7 @@ This command:
 To generate the HTML files in English **and** in another language:
 
 ```
-static-i18n -l english -i english -i <language> template -o .
+static-i18n -l english -i english -i <language> templates -o .
 ```
 
 This will generate the HTML files for the English version of the website in the root directory and the HTML files for the language specified in its corresponding `/<language>` subdirectory. 
@@ -186,7 +186,7 @@ This will generate the HTML files for the English version of the website in the 
 For example:
 
 ```
-static-i18n -l english -i english -i spanish template -o .
+static-i18n -l english -i english -i spanish templates -o .
 ```
 
 #### Step 6: Add the New Language to the Navigation Bar
