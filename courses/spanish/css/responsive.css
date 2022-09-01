@@ -1,8 +1,17 @@
 @media (max-width: 1300px) {}
 
-@media (max-width: 1120px) {}
+@media (max-width: 1260px) {
+  #cart {
+    display: none;
+  }
+
+  #search {
+    display: none;
+  }
+}
 
 @media (max-width: 992px) {
+
   .hero-area {
     min-height: auto;
   }
@@ -11,7 +20,6 @@
     padding-top: 15px;
     align-items: center;
   }
-
 
   .custom-nav-container .navbar-nav .nav-item .nav-link {
     padding: 5px 25px;
@@ -29,7 +37,6 @@
   .client-section .carousel-control-next {
     right: 15%;
   }
-
 }
 
 @media (max-width: 767px) {

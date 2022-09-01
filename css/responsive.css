@@ -1,6 +1,14 @@
 @media (max-width: 1300px) {}
 
-@media (max-width: 1120px) {}
+@media (max-width: 1260px) {
+  #cart {
+    display: none;
+  }
+
+  #search {
+    display: none;
+  }
+}
 
 @media (max-width: 992px) {
   .hero-area {
