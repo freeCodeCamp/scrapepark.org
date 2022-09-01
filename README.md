@@ -61,8 +61,7 @@ If this is part of the JSON file `spanish.json`, when the Spanish version of the
         "contact1": "Contacto 1",
         "contact2": "Contacto 2"
     }
-
-    ....
+    ...
 }
 ```
 ### Localize an Attribute
