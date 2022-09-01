@@ -49,7 +49,7 @@ In these files, you will find the keys of the key-value pairs of the JSON files 
 
 If this is part of the JSON file `spanish.json`, when the Spanish version of the website is generated, the value of `navbar.prices` will be `"Precios"`.
 
-```JSON
+```
 {
     "navbar": {
         "home": "Inicio",
@@ -204,7 +204,7 @@ Here:
 
 Then, add your new language to the `english.json` file below the existing languages and to the JSON file in your language:
 
-```JSON
+```
 {
     "navbar": {
         ...
