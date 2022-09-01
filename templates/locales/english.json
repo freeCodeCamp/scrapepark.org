@@ -5,7 +5,7 @@
     "about": "About",
     "testimonials": "Testimonials",
     "products": "Products",
-    "prices": "Precios",
+    "prices": "Prices",
     "contact": "Contact",
     "contact1": "Contact 1",
     "contact2": "Contact 2"
@@ -13,7 +13,8 @@
   "sliderSection": {
     "discounts": "Discounts",
     "onAllProducts": "On all our products!",
-    "findOurSales": "Find our awesome sales."
+    "findOurSales": "Find our awesome sales.",
+    "shopNow": "Shop Now"
   },
   "whySection": {
     "whyChooseOurSkateboards": "Why choose our skateboards?",
