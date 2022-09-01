@@ -175,6 +175,20 @@ This command:
 
 **Note:** the relative paths for images and resources will be updated automatically. By default, all the HTML files in the `templates` directory will be translated when you run this command. 
 
+To generate the HTML files in English **and** in another language:
+
+```
+static-i18n -l english -i english -i <language> template -o .
+```
+
+This will generate the HTML files for the English version of the website in the root directory and the HTML files for the language specified in its corresponding `/<language>` subdirectory. 
+
+For example:
+
+```
+static-i18n -l english -i english -i spanish template -o .
+```
+
 #### Step 6: Add the New Language to the Navigation Bar
 
 After the directory and HTML files are generated, add your language to the dropdown menu in the navigation bar.
