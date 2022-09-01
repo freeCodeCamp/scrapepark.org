@@ -76,5 +76,14 @@
     "textThatChanges2": "Texto que cambia entre páginas en contacto 2 :)",
     "allRightsReserved": "Todos los derechos reservados",
     "source": "Creado con Free Html Templates"
-  }                     
+  },
+  "alt": {
+    "skateboardPark": "Parque de patinaje",
+    "varietyofSkateboards": "Variedad de patinetas en nuestra tienda",
+    "skateboard": "Patineta",
+    "customer": "Cliente",
+    "websiteLogo": "Logo de ScrapePark.org",
+    "freeCodeCampLogo": "Logo de freeCodeCamp",
+    "brickWall": "Pared de ladrillos con la sombra de un patinador"
+  }                         
 }

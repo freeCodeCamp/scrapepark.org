@@ -76,5 +76,14 @@
     "textThatChanges2": "Text that changes between pages in contact 2 :)",
     "allRightsReserved": "All Rights Reserved",
     "source": "Created with Free Html Templates"
+  },
+  "alt": {
+    "skateboardPark": "Skateboard Park",
+    "varietyofSkateboards": "Variety of Skateboards at the shop",
+    "skateboard": "Skateboard",
+    "customer": "Customer",
+    "websiteLogo": "ScrapePark.org Logo",
+    "freeCodeCampLogo": "freeCodeCamp Logo",
+    "brickWall": "Brick wall with the shadow of a skater"
   }            
 }
