@@ -90,7 +90,7 @@ table {
 }
 
 .heading-container h2 span {
-  color: #f7444e;
+  color: white;
 }
 
 .heading-container p {
@@ -375,6 +375,10 @@ div.box div.row {
   align-items: center;
 }
 
+#all-products {
+  color: white;
+}
+
 .slider-section .carousel-indicators li {
   background-color: #ffffff;
   width: 12px;
@@ -409,6 +413,10 @@ div.box div.row {
 
 .product-section .heading-container {
   margin-bottom: 20px;
+}
+
+.product-section h2 span {
+  color: #f7444e;
 }
 
 .product-section .box {

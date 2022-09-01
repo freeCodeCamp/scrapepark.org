@@ -1,0 +1,80 @@
+{
+  "navbar": {
+    "content": "Content",
+    "home": "Home",
+    "about": "About",
+    "testimonials": "Testimonials",
+    "products": "Products",
+    "prices": "Prices",
+    "contact": "Contact",
+    "contact1": "Contact 1",
+    "contact2": "Contact 2"
+  },
+  "sliderSection": {
+    "discounts": "Discounts",
+    "onAllProducts": "On all our products!",
+    "findOurSales": "Find our awesome sales.",
+    "shopNow": "Shop Now"
+  },
+  "whySection": {
+    "whyChooseOurSkateboards": "Why choose our skateboards?",
+    "fastDelivery": "Fast Delivery",
+    "freeShipping": "Free Shipping",
+    "topQuality": "Top Quality"
+  },
+  "form": {
+    "yourFullName": "Your Full Name",
+    "yourEmail": "Your Email",
+    "subject": "Subject",
+    "yourMessage": "Your Message",
+    "send": "Send"
+  },
+  "arrivalSection": {
+    "news": "News",
+    "dontMissLatestProducts": "Don't miss our latest products!",
+    "shopNow": "Shop Now"
+  },
+  "productsSection": {
+    "ourProducts": "Our Products",
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now",
+    "seeAllProducts": "See All Products",
+    "newSkateboard": "New Skateboard",
+    "usedSkateboard": "Used Skateboard"
+  },
+  "subscribeSection": {
+    "subscribeMessage": "Subscribe to find more discounts",
+    "enterEmail": "Enter Your Email",
+    "subscribe": "Subscribe"
+  },
+  "testimonialsSection": {
+    "testimonials": "Testimonials",
+    "customer": "Customer",
+    "customer1Testimonial": "I love the products and the prices are awesome. I recommend this store.",
+    "customer2Testimonial": "The quality and variety of skateboards are amazing! I will definitely buy here again.",
+    "customer3Testimonial": "I'm very happy with my purchase. This store has many skateboards and the designs are great."
+  },
+  "table": {
+    "prices": "Prices",
+    "blue": "Blue",
+    "green": "Green",
+    "black": "Black",
+    "purple": "Purple",
+    "special": "Special",
+    "missingModels": "The missing models are shown in red."
+  },
+  "contactFooter": {
+    "address": "ADDRESS",
+    "phone": "PHONE",
+    "email": "EMAIL",
+    "menu": "MENU",
+    "services": "Services",
+    "testimonials": "Testimonials",
+    "addressValue": "Fake Street 123",
+    "emailValue": "sales@mail.com",
+    "textThatChanges1": "Text that changes between pages in contact 1 :)",
+    "textThatChanges2": "Text that changes between pages in contact 2 :)",
+    "allRightsReserved": "All Rights Reserved",
+    "source": "Created with Free Html Templates"
+  }            
+}
