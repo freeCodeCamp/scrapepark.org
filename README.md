@@ -176,6 +176,51 @@ This command:
 
 **Note:** the relative paths for images and resources will be updated automatically. By default, all the HTML files in the `templates` directory will be translated when you run this command. 
 
+#### Step 6: Add the New Language to the Navigation Bar
+
+After the directory and HTML files are generated, add your language to the dropdown menu in the navigation bar.
+
+You should add this element:
+
+```HTML
+<li><a href="path_to_new_html_file" data-t>navbar.new_language</a></li>
+```
+
+**Note:** please replace **path_to_new_html_file** with the path to the index.html file in your language. For example: `/italian/index.html` and **new_language** with your new language in lowercase. For example: `italian`.
+
+Here:
+
+```HTML
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
+    <span class="nav-label" data-t>navbar.language</span>
+    </a>
+    <ul class="dropdown-menu">
+    <li><a href="/index.html" data-t>navbar.english</a></li>
+    <li><a href="/spanish/index.html" data-t>navbar.spanish</a></li>
+    <!-- HERE, below the existing languages -->
+    </ul>
+</li>
+```
+
+Then, add your new language to the `english.json` file below the existing languages and to the JSON file in your language:
+
+```JSON
+{
+    "navbar": {
+        ...
+        "language": "Language",
+        "english": "English",
+        "spanish": "Spanish",
+        -----> HERE <-----
+        "contact": "Contact",
+        "contact1": "Contact 1",
+        "contact2": "Contact 2"
+    }
+    ...
+}
+```
+
 ## Courses
 
 The `courses` directory of this repository has versions of this website that have been used in courses created for freeCodeCamp. 
