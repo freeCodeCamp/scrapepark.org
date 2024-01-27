@@ -1,0 +1,43 @@
+repo_name: freeCodeCamp/scrapepark.org
+report_id: e7e83845e97deb616af9e9ebddd4db04
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-27T03:50:51+00:00'
+requested_by: estefaniacn
+provider: github
+branch: main
+detected_tools_count: 3
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/freeCodeCamp/scrapepark.org
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/freeCodeCamp/scrapepark.org/blob/main/courses/spanish/js/jquery-3.4.1.min.js
+  detection_source: courses/spanish/js/jquery-3.4.1.min.js
+  last_updated_by: estefaniacn
+  last_updated_on: 2022-08-25 14:15:33.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/freeCodeCamp/scrapepark.org
+  detection_source: Repo Metadata
