@@ -1,0 +1,92 @@
+{
+    "navbar": {
+      "content": "Περιεχόμενο",
+      "home": "Κεντρική Σελίδα",
+      "about": "Σχετικά με εμάς",
+      "testimonials": "Συστάσεις",
+      "products": "Προϊόντα",
+      "prices": "Τιμές",
+      "language": "Γλώσσα",
+      "english": "Αγγλικά",
+      "spanish": "Ισπανικά",
+      "contact": "Επικοινωνία",
+      "contact1": "Επικοινωνία 1",
+      "contact2": "Επικοινωνία 2"
+    },
+    "sliderSection": {
+      "discounts": "Εκπτώσεις",
+      "onAllProducts": "Σε όλα μας τα προϊόντα!",
+      "findOurSales": "Βρείτε τις απίθανες εκπτώσεις μας.",
+      "shopNow": "Ψωνίστε τώρα"
+    },
+    "whySection": {
+      "whyChooseOurSkateboards": "Γιατί να διαλέξετε τα skateboard μας;",
+      "fastDelivery": "Γρήγορη διανομή",
+      "freeShipping": "Δωρεάν μεταφορικά",
+      "topQuality": "Κορυφαία ποιότητα"
+    },
+    "form": {
+      "yourFullName": "Πλήρες όνομα",
+      "yourEmail": "Το Email σας",
+      "subject": "Θέμα",
+      "yourMessage": "Το μήνυμα σας",
+      "send": "Αποστολή"
+    },
+    "arrivalSection": {
+      "news": "Νέα",
+      "dontMissLatestProducts": "Μη χάσετε τα τελευταία μας προϊόντα!",
+      "shopNow": "Ψωνίστε τώρα"
+    },
+    "productsSection": {
+      "ourProducts": "Τα προϊόντα μας",
+      "addToCart": "Προσθήκη στο καλάθι",
+      "buyNow": "Αγορά τώρα",
+      "seeAllProducts": "Δείτε όλα τα προϊόντα",
+      "newSkateboard": "Καινούριο Skateboard",
+      "usedSkateboard": "Μεταχειρισμένο Skateboard"
+    },
+    "subscribeSection": {
+      "subscribeMessage": "Κάντε εγγραφή για περισσότερες προσφορές",
+      "enterEmail": "Το email σας",
+      "subscribe": "Εγγραφή"
+    },
+    "testimonialsSection": {
+      "testimonials": "Συστάσεις",
+      "customer": "Πελάτης",
+      "customer1Testimonial": "Αγαπάω τα προϊόντα και οι τιμές είναι απίστευτες. Προτείνω αυτό το κατάστημα",
+      "customer2Testimonial": "Η ποιότητα και η ποικιλία των skateboard ειναι τρομερή! Θα αγοράσω σίγουρα ξανα.",
+      "customer3Testimonial": "Είμαι πολύ χαρούμενος με την αγορά μου. Το κατάστημα έχει πολλά skateboard και τα σχέδια είναι υπέροχα."
+    },
+    "table": {
+      "prices": "Τιμές",
+      "blue": "Μπλε",
+      "green": "Πράσινο",
+      "black": "Μαύρο",
+      "purple": "Μώβ",
+      "special": "Σπέσιαλ",
+      "missingModels": "Τα μοντέλα που λείπουν εμφανίζονται με κόκκινο χρώμα."
+    },
+    "contactFooter": {
+      "address": "ΔΙΕΥΘΥΝΣΗ",
+      "phone": "ΤΗΛΕΦΩΝΟ",
+      "email": "EMAIL",
+      "menu": "ΜΕΝΟΥ",
+      "services": "ΥΠΗΡΕΣΙΕς",
+      "testimonials": "Συστάσεις",
+      "addressValue": "Ψεύτικη οδός 123",
+      "emailValue": "sales@mail.com",
+      "textThatChanges1": "Κείμενο που αλλάζει μεταξύ σελιδών στην Επικοινωνία 1 :)",
+      "textThatChanges2": "TΚείμενο που αλλάζει μεταξύ σελιδών στην Επικοινωνία 2 :)",
+      "allRightsReserved": "All Rights Reserved",
+      "source": "Δημιουργήθηκε με Free Html Templates"
+    },
+    "alt": {
+      "skateboardPark": "Πάρκο Skateboard",
+      "varietyofSkateboards": "Ποικιλίες skateboard στο κατάστημα",
+      "skateboard": "Skateboard",
+      "customer": "Πελάτης",
+      "websiteLogo": "ScrapePark.org Logo",
+      "freeCodeCampLogo": "freeCodeCamp Logo",
+      "brickWall": "Τούβλινος τοίχος με την σκία ενός skater"
+    }            
+  }
